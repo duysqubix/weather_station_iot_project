@@ -1,0 +1,6 @@
+Information being sent via MQTT is in csv format with the following headers:
+
+time(ms), count, cpm, uSv/h, uSv/hError
+
+
+It will continously publish, but will only show data when gamma/beta radiation has been detected.

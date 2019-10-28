@@ -1,0 +1,72 @@
+2019-10-25 10:31:50,181:WARNING:Reached the end of the allocated array size, attempting to resize...
+2019-10-25 10:31:55,217:DEBUG:diff parser start
+2019-10-25 10:31:55,218:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:31:55,218:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:31:55,219:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:31:55,219:DEBUG:diff parser end
+2019-10-25 10:31:58,739:DEBUG:diff parser start
+2019-10-25 10:31:58,739:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:31:58,739:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:31:58,740:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:31:58,740:DEBUG:diff parser end
+2019-10-25 10:32:08,864:DEBUG:diff parser start
+2019-10-25 10:32:08,865:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:32:08,865:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:32:08,865:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:32:08,865:DEBUG:diff parser end
+2019-10-25 10:32:24,198:DEBUG:diff parser start
+2019-10-25 10:32:24,198:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:32:24,198:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:32:24,199:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:32:24,199:DEBUG:diff parser end
+2019-10-25 10:33:01,291:DEBUG:diff parser start
+2019-10-25 10:33:01,291:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:33:01,291:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:33:01,292:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:33:01,293:DEBUG:diff parser end
+2019-10-25 10:33:01,347:DEBUG:pickle loaded: /home/duys/virtualenvs/mqtt/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+2019-10-25 10:33:02,192:DEBUG:diff parser start
+2019-10-25 10:33:02,192:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:33:02,192:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:33:02,193:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:33:02,193:DEBUG:diff parser end
+2019-10-25 10:48:32,672:DEBUG:diff parser start
+2019-10-25 10:48:32,672:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:48:32,672:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:48:32,673:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:48:32,673:DEBUG:diff parser end
+2019-10-25 10:48:35,644:DEBUG:diff parser start
+2019-10-25 10:48:35,644:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:48:35,644:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:48:35,645:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:48:35,645:DEBUG:diff parser end
+2019-10-25 10:48:35,648:DEBUG:pickle loaded: /home/duys/Documents/weather_station_iot_project/RPi_Core/iot_core/config.py
+2019-10-25 10:48:39,545:DEBUG:diff parser start
+2019-10-25 10:48:39,546:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:48:39,546:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:48:39,546:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:48:39,546:DEBUG:diff parser end
+2019-10-25 10:48:40,014:DEBUG:diff parser start
+2019-10-25 10:48:40,015:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:48:40,015:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:48:40,016:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:48:40,016:DEBUG:diff parser end
+2019-10-25 10:48:47,760:DEBUG:diff parser start
+2019-10-25 10:48:47,761:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:48:47,761:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:48:47,761:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:48:47,762:DEBUG:diff parser end
+2019-10-25 10:48:50,386:DEBUG:diff parser start
+2019-10-25 10:48:50,387:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:48:50,387:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:48:50,388:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:48:50,388:DEBUG:diff parser end
+2019-10-25 10:48:50,426:DEBUG:pickle loaded: /usr/lib/python3.7/configparser.py
+2019-10-25 10:48:52,021:DEBUG:diff parser start
+2019-10-25 10:48:52,021:DEBUG:line_lengths old: 1; new: 1
+2019-10-25 10:48:52,021:DEBUG:-> code[replace] old[1:1] new[1:1]
+2019-10-25 10:48:52,023:DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+2019-10-25 10:48:52,023:DEBUG:diff parser end
+2019-10-25 11:13:09,414:WARNING:dataset [10-25-2019] in [magnetometer].hd5 already exists
+2019-10-25 13:08:25,150:WARNING:dataset [10-25-2019] in [magnetometer].hd5 already exists
+2019-10-25 13:09:22,526:WARNING:dataset [10-25-2019] in [magnetometer].hd5 already exists
