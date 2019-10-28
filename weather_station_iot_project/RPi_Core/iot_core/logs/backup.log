@@ -70,3 +70,4 @@
 2019-10-25 11:13:09,414:WARNING:dataset [10-25-2019] in [magnetometer].hd5 already exists
 2019-10-25 13:08:25,150:WARNING:dataset [10-25-2019] in [magnetometer].hd5 already exists
 2019-10-25 13:09:22,526:WARNING:dataset [10-25-2019] in [magnetometer].hd5 already exists
+2019-10-28 08:40:12,524:WARNING:Reached the end of the allocated array size, attempting to resize...
