@@ -42,9 +42,11 @@ class HDFViewer:
             display += str(hdf_path) + "\n"
             self.cur_view['V'] = (self._do_show_dataset_values, None)
             self.cur_view['E'] = (self._do_export, None)
+            self.cur_view['S'] = (self._do_size, None)
 
             display += "(V) Values\n"
             display += "(E) Export\n"
+            display += "(S) Size\n"
 
         display += "(B) Back\n"
         display += "(X) Exit\n"
@@ -75,11 +77,16 @@ class HDFViewer:
         print(dset.value)
         self._wait()
 
+    def _do_size(self, *args):
+        dset = self.f[self.cur_dir]
+        print("Size of dataset: ", dset[()].nbytes // 1e6, 'MB')
+        self._wait()
+
     def _do_export(self, *args):
         dset = self.f[self.cur_dir]
         save_path = self.cur_dir.split('/')[-1]
         np.save(save_path + ".npy", dset.value)
-        print("saved as binary numpy")
+        print("Saved as {}".format(save_path + ".npy"))
         self._wait()
 
     def _wait(self):

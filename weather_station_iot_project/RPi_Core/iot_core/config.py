@@ -16,6 +16,13 @@ class IoTConfig(configparser.ConfigParser):
         except KeyError as err:
             print(err)
 
+    def get_all_settings(self, header, evaluate=True):
+        d = dict()
+        for k, v in self[header].items():
+            d[k] = eval(v) if evaluate is True else v
+
+        return d
+
     def get_devices(self, header='device_topic'):
         devices = []
         for device in self[header]:
@@ -23,13 +30,15 @@ class IoTConfig(configparser.ConfigParser):
 
         return devices
 
-    def get_device(self, device_name, header='device_topic'):
+    def get_device(self, device_name, header='device_topic', evaluate=True):
 
         try:
-            return self[header][device_name]
+            settings = self[header][device_name]
+            return settings if evaluate is False else eval(settings)
+
         except KeyError as err:
             print(err)
-    
+
 
 if __name__ == "__main__":
     config = IoTConfig()

@@ -8,8 +8,8 @@ class IoTDevice:
         self.name = name if name is not None else self.topic
 
         self.config = IoTConfig()
-        self.storage_path = self.config.get_setting(
-            name='path', header='local_backup')
+        self.storage_path = self.config.get_setting(name='path',
+                                                    header='local_backup')
 
     def on_message(self, client, userdata, msg):
         pass
@@ -26,32 +26,30 @@ class IoTDevice:
 
         print("{}:{}".format(self.name, msg))
 
+    def _payload_error(self):
+        print("Error delivering payload")
+
 
 class Magnometer(IoTDevice):
-
     def device_setup(self):
         # set up back settings
         header = 'magnetometer'
         print(self.storage_path)
         fname = self.config.get_setting(name='backup_name', header=header)
 
-        sample_rate = self.config.get_setting(
-            name='sample_rate', header=header)
-
-        ndim = self.config.get_setting(name='ndim', header=header)
-
-        attrs = eval(self.config.get_setting(name='attrs', header=header))
-
+        device_settings = self.config.get_all_settings(header='magnetometer')
         self.backup_h = BackUp(path=self.storage_path,
-                               fname=fname, ndim=ndim, attrs=attrs,
-                               sample_rate=sample_rate)
+                               fname=fname,
+                               **device_settings)
 
     def on_message(self, client, userdata, msg):
-        self.default_print(msg.payload)
+        try:
+            self.default_print(msg.payload)
+        except:
+            self._payload_error()
 
 
 class WTX520(IoTDevice):
-
     def device_setup(self):
         pass
 
@@ -60,7 +58,6 @@ class WTX520(IoTDevice):
 
 
 class Geiger(IoTDevice):
-
     def device_setup(self):
         pass
 

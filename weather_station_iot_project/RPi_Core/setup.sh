@@ -8,5 +8,5 @@
 
 # Set up ngrok - (remote access), update rc.local to start ngrok upon restart
 
-# Set up python virtualenv and install pip packages, boto3, paho-mqtt
+# Set up python3.5.3 virtualenv and install pip packages, boto3, paho-mqtt
 
